@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="heading">
+        <div>
+            <h1>What To-Do?</h1>
+        </div>
+    </div>
+    <div class="main">
+        <input type="text" id="todo-list" placeholder="  Enter what you want to To-do">
+        <i class="fa fa-plus-circle" aria-hidden="true" onclick="addTodo()"></i>
+
+        <!-- <button onclick="addTodo()">Add Items</button> -->
+    
+        <i class="fa fa-refresh" aria-hidden="true" onclick="deleteAll()"></i>
+      <!-- <button onclick="deleteAll()">Delete All</button> -->
+    </div>
+
+    <div>
+        <ul id="list" class="">
+
+
+        </ul>
+    </div>
+    <!-- <div id="list">
+        <div class="task">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </div>SS
+        <div class="task">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </div>
+    </div>  -->
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
